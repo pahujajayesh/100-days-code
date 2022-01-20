@@ -19,7 +19,7 @@ public:
         return a + b;
     }
 };
-int main()
+
 {
     Sum obj(10, 12); //explicitly	defined default	constructor	invoked
     cout << obj.getSum() << endl;
@@ -27,6 +27,6 @@ int main()
     //dynamic creation
     Sum *s = new Sum(22, 30);
     cout << "dynamic sum: " << (*s).getSum() << endl;
-     //  -->>this will show an error because default Constructor is deleted becuase of parametrized constructor
+    //  -->>this will show an error because default Constructor is deleted becuase of parametrized constructor
     // Sum ss
 }
