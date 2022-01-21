@@ -1,5 +1,4 @@
-// Ques-https://www.codingninjas.com/codestudio/guided-paths/basics-of-c/content/118817/offering/1381815
-#include <iostream>
+//https://www.codingninjas.com/codestudio/guided-paths/basics-of-c/content/118817/offering/1381814#include <iostream>
 using namespace std;
 
 class ComplexNumbers
