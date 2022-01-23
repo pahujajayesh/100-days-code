@@ -32,15 +32,15 @@ int main()
     //static allocation
     Hero h1;
     h1.setHealth(67);
-    cout<<"Hero Health:"<<h1.getHealth()<<endl;
+    cout << "Hero Health:" << h1.getHealth() << endl;
 
     h1.setLevel('a');
-    cout<<"Hero Level:"<<h1.getLevel()<<endl;
+    cout << "Hero Level:" << h1.getLevel() << endl;
 
     //dynamic allocation
-    Hero *b=new Hero;
+    Hero *b = new Hero;
     b->setHealth(89);
-    cout<<(*b).getHealth()<<endl;
+    cout << (*b).getHealth() << endl;
 
     return 0;
 }
