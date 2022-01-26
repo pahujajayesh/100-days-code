@@ -45,8 +45,11 @@ void insertAtPos(Node *&tail, Node *&head, int data, int position)
     Node *temp = head;
     while (count < position - 1)
     {
+        cout << count << endl;
+
         temp = temp->next;
         count++;
+        cout << "data" << temp->data << endl;
     }
     //insert at last
     if (temp->next == NULL)
