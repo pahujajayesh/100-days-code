@@ -44,7 +44,7 @@ void solve(LinkedListNode<int> *&head, LinkedListNode<int> *curr, LinkedListNode
         return;
     }
     LinkedListNode<int> *temp = curr->next;
-    solve(head, temp, curr);
+    solve(head, temp, curr); 
     curr->next = prev;
 }
 LinkedListNode<int> *reverseLinkedList(LinkedListNode<int> *head)

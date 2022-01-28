@@ -1,4 +1,2 @@
-if (tail == curr)
-    {
-        tail = prev;
-    }
+deleteNode(tail, 3);
+    // print(tail);

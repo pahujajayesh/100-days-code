@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 class Node
-{                                    
+{
 public:
     int data;
     Node *prev;
@@ -128,6 +128,8 @@ int getlength(Node *head)
     Node *temp = head;
     while (temp != NULL)
     {
+        cout << "length: " << len << endl;
+        cout << "temp->data: " << temp->data << endl;
         temp = temp->next;
         len++;
     }
@@ -146,6 +148,7 @@ int main()
     print(head);
     insertAtPos(head, tail, 50, 3);
     print(head);
+
     deleteNode(head, tail, 4);
     print(head);
     cout << "head :" << head->data << endl;
