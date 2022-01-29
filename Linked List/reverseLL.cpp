@@ -1,5 +1,5 @@
 //Approach-1(iterative)
-
+//ques-https://www.codingninjas.com/codestudio/problems/reverse-the-singly-linked-list_799897
 //Linked list node class
 template <typename T>
 class LinkedListNode
