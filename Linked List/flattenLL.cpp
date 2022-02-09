@@ -41,8 +41,7 @@ Node *flattenLinkedList(Node *head)
 //one test case failing
 Node *solve(Node *left, Node *right)
 {
-    if (left == NULL)
-    {
+    if (left == NULL)    {
         return right;
     }
     if (right == NULL)
