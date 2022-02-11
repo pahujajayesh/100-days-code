@@ -18,7 +18,7 @@ int main()
         ans.push_back(ch);
         s.pop();
     }   
-    cout<ans;
+    cout<<ans;
 
 
 return 0;
